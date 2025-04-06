@@ -1241,19 +1241,50 @@ MonoBehaviour:
   productList:
   - name: Kacamata Culture
     image: {fileID: 21300000, guid: ced7daf8a6b42c146a131b29e135087a, type: 3}
-    price: 20000
+    price: 'Rp 99.000 '
+    description: Terinspirasi oleh suasana Pecinan era 60-an, frame stainless steel
+      hollow ini menampilkan ukiran naga kecil di pelipis, dengan lensa blue light
+      blocking untuk gaya old school yang functional. Cocok untuk content creator
+      atau kolektor item budaya!
+    model3D: {fileID: 0}
   - name: Kacamata Antik
     image: {fileID: 21300000, guid: 299b402729d41af47905f7ae5a88af6e, type: 3}
-    price: 234123
+    price: Rp 2.750.000
+    description: Hadirkan nuansa era 1920-an yang sophisticated dengan Kacamata Antik
+      "Vintage Heirloom". Frame berbahan kuningan tua (aged brass) yang diproses
+      secara manual untuk menciptakan efek patina alami, dipadukan dengan lensa mineral
+      glass smoke grey yang mengurangi silau tanpa mengubah persepsi warna. Setiap
+      pasang dibuat terbatas dengan nomor seri khusus!
+    model3D: {fileID: 0}
   - name: Kacamata 3D
     image: {fileID: 21300000, guid: 6975ec096d18ea747b5094800e96edab, type: 3}
-    price: 234123
+    price: Rp 50.000
+    description: Tingkatkan pengalaman menonton film 3D Anda ke level sinema profesional
+      dengan Kacamata 3D CinemaX Pro! Menggunakan teknologi active shutter sync 240Hz
+      yang kompatibel dengan semua TV/monitor 3D modern (Samsung, LG, Sony), dilengkapi
+      lensa polarized berlapis 7 yang mengurangi flicker hingga 90%. Frame ultra-ringan
+      (hanya 28 gram) dengan bantalan hidung silicone soft-fit membuat marathon film
+      3 jam tetap nyaman.
+    model3D: {fileID: 0}
   - name: Kacamata Keluar
     image: {fileID: 21300000, guid: 47bd3a7c5e15fcd4fbfb46970f85cc27, type: 3}
-    price: 234123
+    price: Rp 499.000
+    description: Hadapi segala kondisi cahaya dengan Kacamata Keluar "NightVision
+      Elite"! Lensa photochromic generasi terbaru yang bisa berubah dari jernih (indoor)
+      ke gelap (outdoor) dalam 3 detik, dilengkapi teknologi anti-silau polarisasi
+      5-layer untuk mengurangi pantulan cahaya dari aspal, air, atau salju. Frame
+      TR90 aerospace grade yang fleksibel dan tahan banting, cocok untuk berkendara,
+      hiking, atau olahraga ekstrim.
+    model3D: {fileID: 0}
   - name: Kacamata Futuristik
     image: {fileID: 21300000, guid: bfed412d4916ae7468ee58c3d11a3369, type: 3}
-    price: 234123
+    price: Rp 999.000
+    description: Selamat datang di era baru interaksi digital dengan Kacamata Futuristik
+      "NEO-VISION X9"! Menggabungkan Augmented Reality (AR), AI Assistant, dan konektivitas
+      5G dalam desain stylish yang nyaman dipakai sehari-hari. Layar Micro-OLED 4K
+      memberikan visual ultra-jernih, sementara sensor eye-tracking memungkinkan
+      kontrol gerakan mata untuk navigasi tanpa sentuh.
+    model3D: {fileID: 0}
 --- !u!1 &2083285123
 GameObject:
   m_ObjectHideFlags: 0

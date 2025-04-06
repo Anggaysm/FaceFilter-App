@@ -1241,28 +1241,49 @@ MonoBehaviour:
   productList:
   - name: Anting Berlian
     image: {fileID: 21300000, guid: df22408cabc646e4fa2ff4d52ff8d0fd, type: 3}
-    price: 850000
-    description: blabla
+    price: Rp 8.999.000
+    description: Tambahkan sentuhan kemewahan dalam setiap gaya Anda dengan Anting
+      Berlian "Eternal Shine"! Berlian asli 0.5 carat dengan potongan round brilliant
+      yang memancarkan kilau maksimal, dipadukan dengan setting emas putih 18K yang
+      tahan lama dan hypoallergenic. Desain klasik nan timeless, cocok dipakai sehari-hari
+      maupun acara spesial.
     model3D: {fileID: 919132149155446097, guid: 4963191f9cfb0394ca49fd4d4cd6d63c, type: 3}
   - name: Anting Bintang
     image: {fileID: 21300000, guid: 9f4ba078188235a4bb2f393f6227c8da, type: 3}
-    price: 75000
-    description: sdfasdfa
+    price: Rp 299.000
+    description: Wujudkan pesona misterius langit malam dengan Anting Bintang "Celestial
+      Charm"! Desain bintang berukir detail ini terbuat dari perak sterling 925 yang
+      anti-kusam, dilapisi rhodium untuk kilau tahan lama. Cocok untuk gaya harian
+      yang simpel namun eye-catching, atau layer dengan anting lain untuk tampilan
+      boho-chic.
     model3D: {fileID: 919132149155446097, guid: 99d83ec10330262469be878d57143fda, type: 3}
   - name: Anting Diamond
     image: {fileID: 21300000, guid: e41edae2da633f049b672bba8d95e07a, type: 3}
-    price: 234123
-    description: asdfas
+    price: Rp 89.999.000
+    description: Hadirkan kemewahan haute joaillerie di telinga Anda dengan Anting
+      Diamond "Gala Sparkle". Berlian natural 1.2 carat (total) dengan potongan princess
+      cut yang memantulkan cahaya multidimensi, dirangkai dalam setting platinum
+      950 berbentuk spiral modern. Setiap pasang menjalani proses handcrafting oleh
+      master jeweler selama 32 jam untuk presisi sempurna.
     model3D: {fileID: 919132149155446097, guid: 79ff6aaabb1f913419186ac45113097f, type: 3}
   - name: Anting Kristal
     image: {fileID: 21300000, guid: 3974db5614666224fb748fa6ba589abc, type: 3}
-    price: 120000
-    description: asdf
+    price: Rp 1.250.000
+    description: Tingkatkan gaya harianmu dengan Anting Kristal "Celestial Drops",
+      perpaduan sempurna antara elegan dan modern. Kristal Swarovski Zirconia grade
+      AAA dengan potongan round brilliant memancarkan kilau diamond-like yang memukau,
+      dirangkai dengan frame sterling silver 925 berlapis emas 18K anti kusam. Desain
+      teardrop yang timeless cocok untuk segala kesempatan, dari meeting kantor hingga
+      dinner romantis.
     model3D: {fileID: 919132149155446097, guid: 638b3f97de97975428f0b438840fb9a9, type: 3}
   - name: Anting Sarawak
     image: {fileID: 21300000, guid: 4ac929784ed157241acfaba89e67320a, type: 3}
-    price: 21000
-    description: sdfasd
+    price: Rp 1.750.000
+    description: Hadirkan keanggunan budaya Dayak Sarawak dalam gaya sehari-hari
+      dengan Anting Sarawak "Borneo Heritage". Dibuat langsung oleh pengrajin tradisional
+      Kuching, perpaduan perak 925 berukir motif pua kumbu dan kayu ebony asli Borneo
+      yang dihaluskan secara manual. Setiap pasang adalah karya seni unik dengan
+      cerita tersendiri!
     model3D: {fileID: 919132149155446097, guid: e677ad5578261a54691d224f3121466c, type: 3}
 --- !u!1 &2083285123
 GameObject:

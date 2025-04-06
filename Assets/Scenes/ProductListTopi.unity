@@ -1242,18 +1242,40 @@ MonoBehaviour:
   - name: Topi Abigail
     image: {fileID: 21300000, guid: c52004ec38017a8428274e7e8423b29e, type: 3}
     price: 20000
+    description: 
+    model3D: {fileID: 0}
   - name: Topi wizard
     image: {fileID: 21300000, guid: 211356ff4e084b740846a9888cb87449, type: 3}
-    price: 234123
+    price: Rp 650.000
+    description: Hadirkan keanggunan penyihir zaman kuno dengan Topi Wizard "Arcane
+      Master", sebuah mahakarya kostum yang dirancang untuk para pecinta fantasi
+      sejati! Topi ikonik berbentuk kerucut ini bukan sekadar aksesori biasa, melainkan
+      sebuah artefak mode yang dibuat dengan ketelitian tinggi.
+    model3D: {fileID: 0}
   - name: Topi Hokage 1
     image: {fileID: 21300000, guid: 57229b08ca5d3d94c8906b7fe05bc1ca, type: 3}
-    price: 234123
+    price: Rp 225.000
+    description: Rasakan jiwa kepemimpinan seperti Hokage Pertama dengan Topi Hokage
+      "Shodai Style"! Topi ikonik ini adalah replika presisi dari aksesori terkenal
+      di serial Naruto, dibuat untuk para penggemar setia yang ingin merasakan menjadi
+      pemimpin Desa Konoha.
+    model3D: {fileID: 0}
   - name: 'Pokemon '
     image: {fileID: 21300000, guid: 93a16b4886cbb9547a01e6e5c80486ce, type: 3}
-    price: 234123
+    price: Rp 199.000
+    description: "Wujudkan mimpi menjadi Pok\xE9mon Trainer seperti Ash Ketchum dengan
+      Topi Pok\xE9mon \"Ash Ketchum Official\"! Topi ikonik ini adalah replika presisi
+      tinggi dari topi yang dipakai Ash di serial anime Pok\xE9mon, dibuat dengan
+      detail autentik untuk penggemar sejati."
+    model3D: {fileID: 0}
   - name: 'Topi tennis '
     image: {fileID: 21300000, guid: 13a974a9357aa6f41b7526eaf0dadbf7, type: 3}
-    price: 234123
+    price: Rp 249.000
+    description: Tingkatkan permainan dan gaya tenismu dengan Topi Tennis "Ace Pro",
+      dirancang khusus untuk kenyamanan maksimal di lapangan. Topi ini terbuat dari
+      bahan breathable & quick-dry yang menjaga kepala tetap sejuk bahkan saat pertandingan
+      sengit.
+    model3D: {fileID: 0}
 --- !u!1 &2083285123
 GameObject:
   m_ObjectHideFlags: 0

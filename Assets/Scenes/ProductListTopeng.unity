@@ -1241,19 +1241,46 @@ MonoBehaviour:
   productList:
   - name: Topeng Gigi
     image: {fileID: 21300000, guid: 31c31c16e23591a469ed9d0857521a98, type: 3}
-    price: 20000
+    price: Rp 25.000
+    description: 'Bikin semua orang tersenyum melihat penampilanmu dengan Topeng
+      Gigi "Smil3y"! Topeng ini menampilkan desain gigi putih besar dengan ekspresi
+      ceria, cocok untuk:  Kostum party tema dokter/lucu-lucuan  Konten sosial media
+      (TikTok/Reels)  Ice breaker acara  Hadiah unik untuk teman humoris'
+    model3D: {fileID: 0}
   - name: Anonimuos
     image: {fileID: 21300000, guid: a3cd6821ea1c85b47b1b54fa5413199f, type: 3}
-    price: 234123
+    price: Rp 285.000
+    description: Hadirkan aura misterius dan pemberontakan dengan Topeng "AnonymouS",
+      terinspirasi oleh gerakan hacktivist dengan sentuhan seni topeng Venesia modern.
+      Topeng ini menampilkan desain hitam-putih ikonik dengan detail digital glitch
+      effect, memberikan kesan dramatis dan penuh makna.
+    model3D: {fileID: 0}
   - name: Setan Jepang
     image: {fileID: 21300000, guid: 99ccf047b85ebe344be814701875f905, type: 3}
-    price: 234123
+    price: Rp 1.250.000
+    description: 'Hadirkan aura misterius dunia supernatural Jepang dengan topeng
+      setan Oni tradisional! Dibuat oleh pengrajin kayu di Kyoto menggunakan teknik
+      ukir kuno, topeng ini menampilkan:  Ekspresi mengerikan dengan mata melotot
+      dan taring tajam  Warna merah darah & hitam yang simbolis  Detail ukiran rambut
+      api yang realistis'
+    model3D: {fileID: 0}
   - name: Tengkorak
     image: {fileID: 21300000, guid: 436fe94f00ffa0a4bb6193855a844501, type: 3}
-    price: 234123
+    price: Rp 375.000
+    description: "Hadirkan nuansa misteri dan filosofi memento mori dengan Topeng
+      Tengkorak \"Memento Mori\". Topeng ini menampilkan replika tengkorak manusia
+      yang sangat detail, cocok untuk:  Kostum D\xEDa de los Muertos (Halloween Mexico) 
+      Cosplay karakter gothic atau dark fantasy  Dekorasi ruangan bertema vanitas
+      art  Properti fotografi konseptual"
+    model3D: {fileID: 0}
   - name: Senyum
     image: {fileID: 21300000, guid: a7e1cfbdabdcfca4bb271287cc07cebc, type: 3}
-    price: 234123
+    price: Rp 95.000
+    description: 'Sebarkan energi bahagia dengan Topeng Senyum "Sunny Smile"! Topeng
+      karakter ini menampilkan senyum lebar dengan gigi putih bersinar dan pipi merah
+      muda menggemaskan, cocok untuk:  Kostum acara/konten lucu  Ice breaker presentasi 
+      Terapi anak-anak (mengajarkan ekspresi wajah)  Properti foto boot'
+    model3D: {fileID: 0}
 --- !u!1 &2083285123
 GameObject:
   m_ObjectHideFlags: 0

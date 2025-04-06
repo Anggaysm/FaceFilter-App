@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class ProductManager : MonoBehaviour
 {
-    public GameObject productPrefab; // Prefab produk
-    public Transform contentPanel; // Tempat spawn produk
-    public Button backButton; // Tombol kembali ke kategori
+    public GameObject productPrefab;
+    public Transform contentPanel;
+    public Button backButton;
 
     [System.Serializable]
     public class Product
@@ -17,39 +17,29 @@ public class ProductManager : MonoBehaviour
         public Sprite image;
         public string price;
         public string description;
-        public GameObject model3D; // Objek 3D interaktif
+        public GameObject model3D;
     }
 
-    public List<Product> productList = new List<Product>(); // Daftar produk
+    public List<Product> productList = new List<Product>();
 
     void Start()
     {
         if (backButton != null)
-        {
             backButton.onClick.AddListener(GoBackToCategory);
-        }
         else
-        {
             Debug.LogError("Back Button belum di-assign di Inspector!");
-        }
 
         GenerateProducts();
     }
 
     void GenerateProducts()
     {
-        if (productPrefab == null)
+        if (productPrefab == null || contentPanel == null)
         {
-            Debug.LogError("ERROR: Product Prefab belum di-assign di Inspector!");
-            return;
-        }
-        if (contentPanel == null)
-        {
-            Debug.LogError("ERROR: Content Panel belum di-assign di Inspector!");
+            Debug.LogError("ERROR: Product Prefab atau Content Panel belum di-assign!");
             return;
         }
 
-        Debug.Log("Memulai Generate Produk...");
         foreach (var product in productList)
         {
             GameObject newProduct = Instantiate(productPrefab, contentPanel);
@@ -61,7 +51,7 @@ public class ProductManager : MonoBehaviour
 
             if (imageTransform == null || nameTransform == null || priceTransform == null)
             {
-                Debug.LogError("ERROR: Struktur prefab salah. Pastikan prefab memiliki ProductImage, ProductName, dan ProductPrice!");
+                Debug.LogError("ERROR: Struktur prefab salah!");
                 continue;
             }
 
@@ -70,14 +60,7 @@ public class ProductManager : MonoBehaviour
             priceTransform.GetComponent<TextMeshProUGUI>().text = product.price;
 
             if (detailButton != null)
-            {
-                // Gunakan lambda agar setiap tombol memiliki data produk yang berbeda
                 detailButton.onClick.AddListener(() => OpenDetail(product));
-            }
-            else
-            {
-                Debug.LogError("ERROR: Detail Button tidak ditemukan dalam prefab produk!");
-            }
         }
     }
 
@@ -92,18 +75,29 @@ public class ProductManager : MonoBehaviour
         PlayerPrefs.SetString("ProductName", product.name);
         PlayerPrefs.SetString("ProductPrice", product.price);
         PlayerPrefs.SetString("ProductDescription", product.description);
-        
-        // Simpan scene asal sebelum pindah ke detail
+
+        // ✅ Simpan gambar produk (jika ada)
+        if (product.image != null)
+        {
+            Texture2D texture = product.image.texture;
+            byte[] imageBytes = texture.EncodeToPNG();
+            string encodedImage = System.Convert.ToBase64String(imageBytes);
+            PlayerPrefs.SetString("ProductImage", encodedImage);
+        }
+        else
+        {
+            PlayerPrefs.DeleteKey("ProductImage");
+        }
+
+        // Simpan scene asal
         string currentScene = SceneManager.GetActiveScene().name;
         PlayerPrefs.SetString("PreviousScene", currentScene);
-        
-        // Simpan perubahan ke PlayerPrefs
-        PlayerPrefs.Save(); 
 
-        Debug.Log($"Berpindah ke ProductDetail dengan data: {product.name}, {product.price}, {product.description}");
+        PlayerPrefs.Save();
+
+        Debug.Log($"➡ Ke Detail Produk: {product.name}, {product.price}, {product.description}");
         SceneManager.LoadScene("ProductDetail");
     }
-
 
     public void GoBackToCategory()
     {

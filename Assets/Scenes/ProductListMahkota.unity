@@ -1242,18 +1242,43 @@ MonoBehaviour:
   - name: Wonder Women
     image: {fileID: 21300000, guid: 3bfb3911c5fba2c4ca6f58c346f30c2d, type: 3}
     price: 20000
+    description: 
+    model3D: {fileID: 0}
   - name: Mahkota Emas
     image: {fileID: 21300000, guid: ae3321756614c6b468277c49007cde37, type: 3}
-    price: 234123
+    price: Rp 97.000
+    description: Hadirkan kemewahan kerajaan dalam genggaman Anda dengan Mahkota
+      Emas "Royal Heritage", sebuah mahakarya perhiasan yang dibuat oleh para master
+      jeweler dengan teknik hand-forged tradisional. Menggunakan emas 24 karat asli
+      dan dihiasi 12 berlian natural (total 3.5 carat) serta rubi Burma sebagai sentuhan
+      akhir, mahkota ini adalah investasi abadi untuk kolektor kelas atas.
+    model3D: {fileID: 0}
   - name: Mahkota Miss
     image: {fileID: 21300000, guid: 96a72adcf839d254e9d86b003e01c171, type: 3}
-    price: 234123
-  - name: Mahkota Sapphire
+    price: Rp 250.000
+    description: Tampil memukau layaknya ratu kontes kecantikan dengan Mahkota Miss
+      "Glamour Queen"! Mahkota ini dirancang khusus dengan kristal rhinestone grade
+      AAA dan mutiara imitasi yang berkilauan, dipadukan dengan frame alloy berlapis
+      emas 18K. Desainnya yang timeless dan elegan akan membuat Anda bersinar di
+      atas panggung maupun di momen spesial.
+    model3D: {fileID: 0}
+  - name: Mahkota Emas
     image: {fileID: 21300000, guid: c119cc693f22ff04abadd0a90e14cf8d, type: 3}
-    price: 234123
+    price: Rp 250.000
+    description: Hadirkan kemewahan kerajaan dalam genggaman Anda dengan Mahkota
+      Emas "Royal Heritage", sebuah mahakarya perhiasan yang dibuat oleh para master
+      jeweler dengan teknik hand-forged tradisional. Menggunakan emas 24 karat asli
+      dan dihiasi 12 berlian natural (total 3.5 carat) serta rubi Burma sebagai sentuhan
+      akhir, mahkota ini adalah investasi abadi untuk kolektor kelas atas.
+    model3D: {fileID: 0}
   - name: Mahkota Rotan
     image: {fileID: 21300000, guid: 06eade2daa7419a43a159cfc5c522e30, type: 3}
-    price: 234123
+    price: Rp 350.000
+    description: Hadirkan pesona alam dan budaya Indonesia dengan Mahkota Rotan "Nusantara
+      Queen", hasil karya tangan pengrajin rotan tradisional dari Jepara. Dibuat
+      dengan teknik anyaman rotan pilihan yang direndam minyak kelapa untuk kekuatan
+      dan kilau alami, mahkota ini memberikan kesan natural yang elegan.
+    model3D: {fileID: 0}
 --- !u!1 &2083285123
 GameObject:
   m_ObjectHideFlags: 0
