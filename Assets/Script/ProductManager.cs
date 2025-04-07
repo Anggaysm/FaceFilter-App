@@ -72,30 +72,21 @@ public class ProductManager : MonoBehaviour
             return;
         }
 
+        // Simpan data produk yang dipilih ke static class
+        ProductDataHolder.Instance.SetProduct(product.name, product.price, product.description, product.image);
+
+        // Simpan informasi teks ke PlayerPrefs (opsional, kalau mau dipakai di detail)
         PlayerPrefs.SetString("ProductName", product.name);
         PlayerPrefs.SetString("ProductPrice", product.price);
         PlayerPrefs.SetString("ProductDescription", product.description);
 
-        // ✅ Simpan gambar produk (jika ada)
-        if (product.image != null)
-        {
-            Texture2D texture = product.image.texture;
-            byte[] imageBytes = texture.EncodeToPNG();
-            string encodedImage = System.Convert.ToBase64String(imageBytes);
-            PlayerPrefs.SetString("ProductImage", encodedImage);
-        }
-        else
-        {
-            PlayerPrefs.DeleteKey("ProductImage");
-        }
-
-        // Simpan scene asal
+        // Simpan scene asal sebelum pindah ke detail
         string currentScene = SceneManager.GetActiveScene().name;
         PlayerPrefs.SetString("PreviousScene", currentScene);
 
         PlayerPrefs.Save();
 
-        Debug.Log($"➡ Ke Detail Produk: {product.name}, {product.price}, {product.description}");
+        Debug.Log($"Berpindah ke ProductDetail dengan data: {product.name}, {product.price}, {product.description}");
         SceneManager.LoadScene("ProductDetail");
     }
 
