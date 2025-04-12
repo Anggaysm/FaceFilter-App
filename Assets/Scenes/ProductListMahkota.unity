@@ -197,7 +197,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -78}
-  m_SizeDelta: {x: 1000, y: 1500}
+  m_SizeDelta: {x: 1000, y: 1600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &141439329
 MonoBehaviour:
@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -319,6 +319,8 @@ MonoBehaviour:
   ProductPrice: 
   ProductDescription: 
   ProductImage: {fileID: 0}
+  ProductModel3D: {fileID: 0}
+  ProductCategory: 0
 --- !u!1 &494827867
 GameObject:
   m_ObjectHideFlags: 0
@@ -771,7 +773,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -421, y: 816}
+  m_AnchoredPosition: {x: -421, y: 948}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1420525703
@@ -1291,20 +1293,6 @@ MonoBehaviour:
   contentPanel: {fileID: 1650155942}
   backButton: {fileID: 1420525703}
   productList:
-  - name: Wonder Women
-    image: {fileID: 21300000, guid: 3bfb3911c5fba2c4ca6f58c346f30c2d, type: 3}
-    price: 20000
-    description: 
-    model3D: {fileID: 0}
-  - name: Mahkota Emas
-    image: {fileID: 21300000, guid: ae3321756614c6b468277c49007cde37, type: 3}
-    price: Rp 97.000
-    description: Hadirkan kemewahan kerajaan dalam genggaman Anda dengan Mahkota
-      Emas "Royal Heritage", sebuah mahakarya perhiasan yang dibuat oleh para master
-      jeweler dengan teknik hand-forged tradisional. Menggunakan emas 24 karat asli
-      dan dihiasi 12 berlian natural (total 3.5 carat) serta rubi Burma sebagai sentuhan
-      akhir, mahkota ini adalah investasi abadi untuk kolektor kelas atas.
-    model3D: {fileID: 0}
   - name: Mahkota Miss
     image: {fileID: 21300000, guid: 96a72adcf839d254e9d86b003e01c171, type: 3}
     price: Rp 250.000
@@ -1313,7 +1301,8 @@ MonoBehaviour:
       AAA dan mutiara imitasi yang berkilauan, dipadukan dengan frame alloy berlapis
       emas 18K. Desainnya yang timeless dan elegan akan membuat Anda bersinar di
       atas panggung maupun di momen spesial.
-    model3D: {fileID: 0}
+    model3D: {fileID: 924625972505912574, guid: 43e50a98d77c0344b8e496e972c29ca4, type: 3}
+    category: 4
   - name: Mahkota Emas
     image: {fileID: 21300000, guid: c119cc693f22ff04abadd0a90e14cf8d, type: 3}
     price: Rp 250.000
@@ -1322,15 +1311,35 @@ MonoBehaviour:
       jeweler dengan teknik hand-forged tradisional. Menggunakan emas 24 karat asli
       dan dihiasi 12 berlian natural (total 3.5 carat) serta rubi Burma sebagai sentuhan
       akhir, mahkota ini adalah investasi abadi untuk kolektor kelas atas.
-    model3D: {fileID: 0}
-  - name: Mahkota Rotan
-    image: {fileID: 21300000, guid: 06eade2daa7419a43a159cfc5c522e30, type: 3}
-    price: Rp 350.000
-    description: Hadirkan pesona alam dan budaya Indonesia dengan Mahkota Rotan "Nusantara
-      Queen", hasil karya tangan pengrajin rotan tradisional dari Jepara. Dibuat
-      dengan teknik anyaman rotan pilihan yang direndam minyak kelapa untuk kekuatan
-      dan kilau alami, mahkota ini memberikan kesan natural yang elegan.
-    model3D: {fileID: 0}
+    model3D: {fileID: 5240659566252233947, guid: 560cfc50c71ed924aa417daad871cdd3, type: 3}
+    category: 4
+  - name: Mahkota Ular
+    image: {fileID: 21300000, guid: 14a610c8ccf2c024786915e6a2ffe2f6, type: 3}
+    price: Rp 550.000
+    description: Mahkota Ular memikat dengan desain eksotis yang terinspirasi dari
+      keluwesan ular, terbuat dari logam berkilau yang elegan. Ringan dan nyaman
+      dipakai, mahkota ini menonjolkan detail ukiran halus untuk kesan mewah. Sempurna
+      sebagai aksesori statement untuk acara spesial atau penampilan bertema dramatis.
+    model3D: {fileID: 8532332666334243089, guid: 4ce3a4fa2bc2d174b9c9058923b3548e, type: 3}
+    category: 4
+  - name: Mahkota Diamond
+    image: {fileID: 21300000, guid: ac0dc949321a22e4e942a42295a3849c, type: 3}
+    price: Rp 850.000
+    description: Mahkota Diamond memancarkan kemewahan dengan desain elegan yang
+      dihiasi kilauan berlian sintetis berkualitas tinggi. Terbuat dari logam ringan,
+      mahkota ini nyaman dipakai dan menawarkan sentuhan anggun untuk acara istimewa.
+      Sempurna untuk melengkapi penampilan glamor yang tak terlupakan.
+    model3D: {fileID: 3357534543768072923, guid: bc06b141498a7e5458cc1b19c8c8f86b, type: 3}
+    category: 4
+  - name: Mahkota Iron
+    image: {fileID: 21300000, guid: f3c874c0b2910ba49bc0d212b1369766, type: 3}
+    price: Rp 590.000
+    description: Mahkota Iron menampilkan desain kokoh dan maskulin, terbuat dari
+      besi tempa dengan sentuhan akhir yang kasar namun elegan. Ringan namun tahan
+      lama, mahkota ini memberikan kesan kuat dan berwibawa untuk penampilan yang
+      menonjol. Ideal untuk tema epik atau acara bertema sejarah yang penuh karakter.
+    model3D: {fileID: 6730486311339593770, guid: b5470033584314b418fe3d896fbb3dfd, type: 3}
+    category: 4
 --- !u!1 &2083285123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1365,7 +1374,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 823}
+  m_AnchoredPosition: {x: 0, y: 955}
   m_SizeDelta: {x: 600, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2083285125

@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.UI;
+using static ProductCategory;
 
 public class ProductDataHolder : MonoBehaviour
 {
@@ -9,25 +9,29 @@ public class ProductDataHolder : MonoBehaviour
     public string ProductPrice;
     public string ProductDescription;
     public Sprite ProductImage;
+    public GameObject ProductModel3D;
+    public ProductCategory ProductCategory;
 
     void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // supaya tidak hilang ketika pindah scene
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
-            Destroy(gameObject); // hindari duplikat
+            Destroy(gameObject);
         }
     }
 
-    public void SetProduct(string name, string price, string description, Sprite image)
+    public void SetProduct(string name, string price, string description, Sprite image, GameObject model3D,ProductCategory category)
     {
         ProductName = name;
         ProductPrice = price;
         ProductDescription = description;
         ProductImage = image;
+        ProductModel3D = model3D;
+        ProductCategory = category;
     }
 }

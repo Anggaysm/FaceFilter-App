@@ -29,10 +29,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ProductDetail.unity
     guid: 378c5c3decc2c5d44b96fbaa63918dc9
-  - enabled: 0
-    path: Assets/Scenes/Kamera.unity
-    guid: 5314b378a51ebbb49aedcec8e35b74e5
+  - enabled: 1
+    path: Assets/Scenes/FacePreviewScene.unity
+    guid: 3fa2847129e779f4f9c7e3c215bad910
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9ff2060e50012f04aa7789b6a0448f4c, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: b29f7fab989effe459b597a1906d78f3, type: 2}
-    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 1464539a863d7ef48ab75c2c88751ede, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0667cc805c90eca419009ac4754e6e63, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 1c2834d213105be4795eeaa845146634, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: fc5c6456288684b45b65e5c3fdde854a, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 28d7eb0c141b63f4b878c8719ec51caa, type: 2}

@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using static ProductCategory;
 
 public class ProductManager : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class ProductManager : MonoBehaviour
         public string price;
         public string description;
         public GameObject model3D;
+        public ProductCategory category;
     }
 
     public List<Product> productList = new List<Product>();
@@ -72,21 +74,26 @@ public class ProductManager : MonoBehaviour
             return;
         }
 
-        // Simpan data produk yang dipilih ke static class
-        ProductDataHolder.Instance.SetProduct(product.name, product.price, product.description, product.image);
+        ProductDataHolder.Instance.SetProduct(
+            product.name,
+            product.price,
+            product.description,
+            product.image,
+            product.model3D,
+            product.category
+        );
 
-        // Simpan informasi teks ke PlayerPrefs (opsional, kalau mau dipakai di detail)
         PlayerPrefs.SetString("ProductName", product.name);
         PlayerPrefs.SetString("ProductPrice", product.price);
         PlayerPrefs.SetString("ProductDescription", product.description);
+        PlayerPrefs.SetString("ProductCategory", product.category.ToString());
 
-        // Simpan scene asal sebelum pindah ke detail
         string currentScene = SceneManager.GetActiveScene().name;
         PlayerPrefs.SetString("PreviousScene", currentScene);
 
         PlayerPrefs.Save();
 
-        Debug.Log($"Berpindah ke ProductDetail dengan data: {product.name}, {product.price}, {product.description}");
+        Debug.Log($"➡️ Berpindah ke ProductDetail dengan data: {product.name}, model3D: {product.model3D?.name}");
         SceneManager.LoadScene("ProductDetail");
     }
 

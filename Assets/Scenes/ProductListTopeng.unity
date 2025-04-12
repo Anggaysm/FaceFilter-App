@@ -197,7 +197,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -78}
-  m_SizeDelta: {x: 1000, y: 1500}
+  m_SizeDelta: {x: 1000, y: 1600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &141439329
 MonoBehaviour:
@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -384,7 +384,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -421, y: 816}
+  m_AnchoredPosition: {x: -421, y: 928}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &494827867
@@ -946,6 +946,8 @@ MonoBehaviour:
   ProductPrice: 
   ProductDescription: 
   ProductImage: {fileID: 0}
+  ProductModel3D: {fileID: 0}
+  ProductCategory: 0
 --- !u!1 &1634715299
 GameObject:
   m_ObjectHideFlags: 0
@@ -1298,15 +1300,8 @@ MonoBehaviour:
       Gigi "Smil3y"! Topeng ini menampilkan desain gigi putih besar dengan ekspresi
       ceria, cocok untuk:  Kostum party tema dokter/lucu-lucuan  Konten sosial media
       (TikTok/Reels)  Ice breaker acara  Hadiah unik untuk teman humoris'
-    model3D: {fileID: 0}
-  - name: Anonimuos
-    image: {fileID: 21300000, guid: a3cd6821ea1c85b47b1b54fa5413199f, type: 3}
-    price: Rp 285.000
-    description: Hadirkan aura misterius dan pemberontakan dengan Topeng "AnonymouS",
-      terinspirasi oleh gerakan hacktivist dengan sentuhan seni topeng Venesia modern.
-      Topeng ini menampilkan desain hitam-putih ikonik dengan detail digital glitch
-      effect, memberikan kesan dramatis dan penuh makna.
-    model3D: {fileID: 0}
+    model3D: {fileID: 8938997846354408002, guid: 3570d60ca5ef9f94b813ab0c694ee92a, type: 3}
+    category: 3
   - name: Setan Jepang
     image: {fileID: 21300000, guid: 99ccf047b85ebe344be814701875f905, type: 3}
     price: Rp 1.250.000
@@ -1315,7 +1310,8 @@ MonoBehaviour:
       ukir kuno, topeng ini menampilkan:  Ekspresi mengerikan dengan mata melotot
       dan taring tajam  Warna merah darah & hitam yang simbolis  Detail ukiran rambut
       api yang realistis'
-    model3D: {fileID: 0}
+    model3D: {fileID: 7250795038285063037, guid: a872edca2c7f3424db05af481583e0aa, type: 3}
+    category: 3
   - name: Tengkorak
     image: {fileID: 21300000, guid: 436fe94f00ffa0a4bb6193855a844501, type: 3}
     price: Rp 375.000
@@ -1324,15 +1320,18 @@ MonoBehaviour:
       yang sangat detail, cocok untuk:  Kostum D\xEDa de los Muertos (Halloween Mexico) 
       Cosplay karakter gothic atau dark fantasy  Dekorasi ruangan bertema vanitas
       art  Properti fotografi konseptual"
-    model3D: {fileID: 0}
-  - name: Senyum
-    image: {fileID: 21300000, guid: a7e1cfbdabdcfca4bb271287cc07cebc, type: 3}
-    price: Rp 95.000
-    description: 'Sebarkan energi bahagia dengan Topeng Senyum "Sunny Smile"! Topeng
-      karakter ini menampilkan senyum lebar dengan gigi putih bersinar dan pipi merah
-      muda menggemaskan, cocok untuk:  Kostum acara/konten lucu  Ice breaker presentasi 
-      Terapi anak-anak (mengajarkan ekspresi wajah)  Properti foto boot'
-    model3D: {fileID: 0}
+    model3D: {fileID: 3595042497124995738, guid: 159b92c29622c754681473d1ea6df391, type: 3}
+    category: 3
+  - name: Badut
+    image: {fileID: 21300000, guid: db6fa94966d6ee54299d031e541da6ac, type: 3}
+    price: Rp 45.000
+    description: Topeng badut (topeng badut atau topeng clown) adalah topeng yang
+      menggambarkan wajah badut dengan ciri khas seperti hidung merah, senyum lebar,
+      alis tebal, atau ekspresi lucu dan berwarna-warni. Topeng ini sering digunakan
+      dalam pertunjukan sirkus, pesta kostum, perayaan Halloween, atau pertunjukan
+      teater.
+    model3D: {fileID: 6081193701895155409, guid: 8a6b33117d0eaa94d965e397074852d4, type: 3}
+    category: 3
 --- !u!1 &2083285123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1367,7 +1366,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 823}
+  m_AnchoredPosition: {x: 0, y: 935}
   m_SizeDelta: {x: 600, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2083285125

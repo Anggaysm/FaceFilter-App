@@ -196,8 +196,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -78}
-  m_SizeDelta: {x: 1000, y: 1500}
+  m_AnchoredPosition: {x: 0, y: -44}
+  m_SizeDelta: {x: 1000, y: 1600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &141439329
 MonoBehaviour:
@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -522,7 +522,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -421, y: 816}
+  m_AnchoredPosition: {x: -421, y: 922}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1076582521
@@ -856,6 +856,8 @@ MonoBehaviour:
   ProductPrice: 
   ProductDescription: 
   ProductImage: {fileID: 0}
+  ProductModel3D: {fileID: 0}
+  ProductCategory: 0
 --- !u!1 &1432555111
 GameObject:
   m_ObjectHideFlags: 0
@@ -1291,52 +1293,44 @@ MonoBehaviour:
   contentPanel: {fileID: 1650155942}
   backButton: {fileID: 1076582521}
   productList:
-  - name: Anting Berlian
-    image: {fileID: 21300000, guid: df22408cabc646e4fa2ff4d52ff8d0fd, type: 3}
-    price: Rp 8.999.000
-    description: Tambahkan sentuhan kemewahan dalam setiap gaya Anda dengan Anting
-      Berlian "Eternal Shine"! Berlian asli 0.5 carat dengan potongan round brilliant
-      yang memancarkan kilau maksimal, dipadukan dengan setting emas putih 18K yang
-      tahan lama dan hypoallergenic. Desain klasik nan timeless, cocok dipakai sehari-hari
-      maupun acara spesial.
-    model3D: {fileID: 919132149155446097, guid: 4963191f9cfb0394ca49fd4d4cd6d63c, type: 3}
-  - name: Anting Bintang
-    image: {fileID: 21300000, guid: 9f4ba078188235a4bb2f393f6227c8da, type: 3}
-    price: Rp 299.000
-    description: Wujudkan pesona misterius langit malam dengan Anting Bintang "Celestial
-      Charm"! Desain bintang berukir detail ini terbuat dari perak sterling 925 yang
-      anti-kusam, dilapisi rhodium untuk kilau tahan lama. Cocok untuk gaya harian
-      yang simpel namun eye-catching, atau layer dengan anting lain untuk tampilan
-      boho-chic.
-    model3D: {fileID: 919132149155446097, guid: 99d83ec10330262469be878d57143fda, type: 3}
-  - name: Anting Diamond
-    image: {fileID: 21300000, guid: e41edae2da633f049b672bba8d95e07a, type: 3}
-    price: Rp 89.999.000
-    description: Hadirkan kemewahan haute joaillerie di telinga Anda dengan Anting
-      Diamond "Gala Sparkle". Berlian natural 1.2 carat (total) dengan potongan princess
-      cut yang memantulkan cahaya multidimensi, dirangkai dalam setting platinum
-      950 berbentuk spiral modern. Setiap pasang menjalani proses handcrafting oleh
-      master jeweler selama 32 jam untuk presisi sempurna.
-    model3D: {fileID: 919132149155446097, guid: 79ff6aaabb1f913419186ac45113097f, type: 3}
   - name: Anting Kristal
     image: {fileID: 21300000, guid: 3974db5614666224fb748fa6ba589abc, type: 3}
-    price: Rp 1.250.000
+    price: Rp 400.000
     description: Tingkatkan gaya harianmu dengan Anting Kristal "Celestial Drops",
       perpaduan sempurna antara elegan dan modern. Kristal Swarovski Zirconia grade
       AAA dengan potongan round brilliant memancarkan kilau diamond-like yang memukau,
       dirangkai dengan frame sterling silver 925 berlapis emas 18K anti kusam. Desain
       teardrop yang timeless cocok untuk segala kesempatan, dari meeting kantor hingga
       dinner romantis.
-    model3D: {fileID: 919132149155446097, guid: 638b3f97de97975428f0b438840fb9a9, type: 3}
-  - name: Anting Sarawak
-    image: {fileID: 21300000, guid: 4ac929784ed157241acfaba89e67320a, type: 3}
-    price: Rp 1.750.000
-    description: Hadirkan keanggunan budaya Dayak Sarawak dalam gaya sehari-hari
-      dengan Anting Sarawak "Borneo Heritage". Dibuat langsung oleh pengrajin tradisional
-      Kuching, perpaduan perak 925 berukir motif pua kumbu dan kayu ebony asli Borneo
-      yang dihaluskan secara manual. Setiap pasang adalah karya seni unik dengan
-      cerita tersendiri!
-    model3D: {fileID: 919132149155446097, guid: e677ad5578261a54691d224f3121466c, type: 3}
+    model3D: {fileID: 5856360275125562988, guid: f949505586e5eac479dd42d45ff55063, type: 3}
+    category: 0
+  - name: Anting Jaring
+    image: {fileID: 21300000, guid: e4099f0a94751b44c9fbbca767bf11df, type: 3}
+    price: Rp 185.000
+    description: Hadirkan aura misterius dan avant-garde dengan Anting Jaring "Celestial
+      Web", perpaduan sempurna antara elegan gothic dan tren streetwear. Desain jaring
+      metalik yang rumit ini memberikan ilusi floating chain, menciptakan gerakan
+      hipnotis setiap kali Anda memutar kepala.
+    model3D: {fileID: 440063220310617803, guid: e4f9dbd168d9f724cbccb69d8a7aea1a, type: 3}
+    category: 0
+  - name: Anting Lolipop
+    image: {fileID: 21300000, guid: 117bcc063c2a2684094efa51988c5f57, type: 3}
+    price: Rp 95.000
+    description: Tambahkan sentuhan manis dan menyenangkan ke gaya sehari-harimu
+      dengan Anting Lolipop "Sweet Twist"! Desain unik berbentuk permen lolipop ini
+      terbuat dari resin food-grade berwarna cerah, memberikan efek transparan seperti
+      permen asli. Cocok untuk tampilan playful, cosplay, atau kostum tema candy!
+    model3D: {fileID: 1725558256426842029, guid: f331665985fdaa74fa34a34987c2e5cc, type: 3}
+    category: 0
+  - name: Anting Slim
+    image: {fileID: 21300000, guid: f27d767c9b4745a4198d154a81824ae3, type: 3}
+    price: Rp 200.000
+    description: Anting Slim hadir dengan desain ramping dari perak 925 yang elegan,
+      menjadikannya pilihan sempurna untuk segala kesempatan. Ringan dan hipoalergenik,
+      anting ini nyaman dipakai sepanjang hari. Tersedia dalam warna silver dan gold
+      yang memikat, memberikan sentuhan sederhana namun berkelas pada penampilanmu.
+    model3D: {fileID: 9192440666932097117, guid: 255946302842726468e6aeb0a57b50ee, type: 3}
+    category: 0
 --- !u!1 &2083285123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1371,7 +1365,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 823}
+  m_AnchoredPosition: {x: 0, y: 929}
   m_SizeDelta: {x: 600, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2083285125

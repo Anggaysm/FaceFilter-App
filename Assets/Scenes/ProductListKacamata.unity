@@ -197,7 +197,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -78}
-  m_SizeDelta: {x: 1000, y: 1500}
+  m_SizeDelta: {x: 1000, y: 1600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &141439329
 MonoBehaviour:
@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -319,6 +319,8 @@ MonoBehaviour:
   ProductPrice: 
   ProductDescription: 
   ProductImage: {fileID: 0}
+  ProductModel3D: {fileID: 0}
+  ProductCategory: 0
 --- !u!1 &494827867
 GameObject:
   m_ObjectHideFlags: 0
@@ -771,7 +773,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -421, y: 816}
+  m_AnchoredPosition: {x: -421, y: 938}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1424649863
@@ -1049,7 +1051,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -63, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1650155943
 MonoBehaviour:
@@ -1298,45 +1300,45 @@ MonoBehaviour:
       hollow ini menampilkan ukiran naga kecil di pelipis, dengan lensa blue light
       blocking untuk gaya old school yang functional. Cocok untuk content creator
       atau kolektor item budaya!
-    model3D: {fileID: 0}
-  - name: Kacamata Antik
-    image: {fileID: 21300000, guid: 299b402729d41af47905f7ae5a88af6e, type: 3}
-    price: Rp 2.750.000
-    description: Hadirkan nuansa era 1920-an yang sophisticated dengan Kacamata Antik
-      "Vintage Heirloom". Frame berbahan kuningan tua (aged brass) yang diproses
-      secara manual untuk menciptakan efek patina alami, dipadukan dengan lensa mineral
-      glass smoke grey yang mengurangi silau tanpa mengubah persepsi warna. Setiap
-      pasang dibuat terbatas dengan nomor seri khusus!
-    model3D: {fileID: 0}
-  - name: Kacamata 3D
-    image: {fileID: 21300000, guid: 6975ec096d18ea747b5094800e96edab, type: 3}
-    price: Rp 50.000
-    description: Tingkatkan pengalaman menonton film 3D Anda ke level sinema profesional
-      dengan Kacamata 3D CinemaX Pro! Menggunakan teknologi active shutter sync 240Hz
-      yang kompatibel dengan semua TV/monitor 3D modern (Samsung, LG, Sony), dilengkapi
-      lensa polarized berlapis 7 yang mengurangi flicker hingga 90%. Frame ultra-ringan
-      (hanya 28 gram) dengan bantalan hidung silicone soft-fit membuat marathon film
-      3 jam tetap nyaman.
-    model3D: {fileID: 0}
-  - name: Kacamata Keluar
-    image: {fileID: 21300000, guid: 47bd3a7c5e15fcd4fbfb46970f85cc27, type: 3}
-    price: Rp 499.000
-    description: Hadapi segala kondisi cahaya dengan Kacamata Keluar "NightVision
-      Elite"! Lensa photochromic generasi terbaru yang bisa berubah dari jernih (indoor)
-      ke gelap (outdoor) dalam 3 detik, dilengkapi teknologi anti-silau polarisasi
-      5-layer untuk mengurangi pantulan cahaya dari aspal, air, atau salju. Frame
-      TR90 aerospace grade yang fleksibel dan tahan banting, cocok untuk berkendara,
-      hiking, atau olahraga ekstrim.
-    model3D: {fileID: 0}
-  - name: Kacamata Futuristik
-    image: {fileID: 21300000, guid: bfed412d4916ae7468ee58c3d11a3369, type: 3}
-    price: Rp 999.000
-    description: Selamat datang di era baru interaksi digital dengan Kacamata Futuristik
-      "NEO-VISION X9"! Menggabungkan Augmented Reality (AR), AI Assistant, dan konektivitas
-      5G dalam desain stylish yang nyaman dipakai sehari-hari. Layar Micro-OLED 4K
-      memberikan visual ultra-jernih, sementara sensor eye-tracking memungkinkan
-      kontrol gerakan mata untuk navigasi tanpa sentuh.
-    model3D: {fileID: 0}
+    model3D: {fileID: 8879795417842232517, guid: 72e42e967c7d38a489a880b98a71bfdd, type: 3}
+    category: 1
+  - name: Kacamata Hijau
+    image: {fileID: 21300000, guid: 785cc0cb05f30c749bdc9e9d52665cd2, type: 3}
+    price: 'Rp 89.000 '
+    description: Kacamata Lensa Hijau menawarkan desain stylish dengan lensa berwarna
+      hijau yang elegan, terbuat dari material berkualitas tinggi. Nyaman dipakai
+      sehari-hari, kacamata ini dilengkapi fitur anti-silau untuk melindungi mata
+      dari cahaya terang. Tersedia dalam frame ringan, cocok untuk menunjang penampilan
+      modern dan dinamis.
+    model3D: {fileID: 1793678788328547496, guid: 91cf73eff2a624946b9efd4b5aa9d17e, type: 3}
+    category: 1
+  - name: Bintang Merah
+    image: {fileID: 21300000, guid: d6f68e5cd3307cc4c8501299faaedfe7, type: 3}
+    price: 'Rp 109.000 '
+    description: Kacamata Lensa Bintang memukau dengan desain lensa unik bermotif
+      bintang yang mencuri perhatian. Dibuat dengan frame ringan dan nyaman, cocok
+      untuk menambah gaya pada setiap kesempatan. Lensa berkualitas tinggi ini juga
+      memberikan perlindungan mata dari silau, menjadikan penampilanmu semakin bersinar.
+    model3D: {fileID: 5635448363646966629, guid: a38cf0739a9d02d489917f8be659dfac, type: 3}
+    category: 1
+  - name: Vintage
+    image: {fileID: 21300000, guid: a7c7bb2e2a1697448b22d2137f55c8e0, type: 3}
+    price: 'Rp 299.000 '
+    description: Kacamata Genggam hadir dengan desain inovatif tanpa tangkai, mudah
+      digenggam untuk penggunaan praktis kapan saja. Terbuat dari material ringan
+      dan lensa jernih, memberikan kenyamanan serta kejernihan penglihatan. Ideal
+      untuk gaya minimalis atau sebagai aksesori unik yang fungsional.
+    model3D: {fileID: 4018276219626626290, guid: 4c82abe8f029791468a2e26d01fa1a10, type: 3}
+    category: 1
+  - name: Kacamata Ultah
+    image: {fileID: 21300000, guid: 070e5f672b4edc44e81011944e8be8ec, type: 3}
+    price: 'Rp 50.000 '
+    description: Kacamata Ulang Tahun dirancang spesial dengan desain ceria dan warna-warni
+      yang meriah, sempurna untuk merayakan momen istimewa. Lensa berkualitas tinggi
+      dan frame ringan memastikan kenyamanan sepanjang pesta. Tambahkan sentuhan
+      unik pada perayaanmu dengan aksesori ini yang penuh semangat!
+    model3D: {fileID: 701347866406045262, guid: c786e13a24c899f4bb3365d9e3b65773, type: 3}
+    category: 1
 --- !u!1 &2083285123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1371,7 +1373,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 823}
+  m_AnchoredPosition: {x: 0, y: 945}
   m_SizeDelta: {x: 600, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2083285125
