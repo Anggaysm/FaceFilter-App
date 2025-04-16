@@ -840,7 +840,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 70a80d0f324f2914b80a331070b4e9dc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 74f26b4e4db79bd4ca0276271c78fca4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1294,7 +1294,7 @@ MonoBehaviour:
   backButton: {fileID: 1420525703}
   productList:
   - name: Mahkota Miss
-    image: {fileID: 21300000, guid: 96a72adcf839d254e9d86b003e01c171, type: 3}
+    image: {fileID: 21300000, guid: 5c3839aac912cb44bab00a0d58adf01c, type: 3}
     price: Rp 250.000
     description: Tampil memukau layaknya ratu kontes kecantikan dengan Mahkota Miss
       "Glamour Queen"! Mahkota ini dirancang khusus dengan kristal rhinestone grade
@@ -1304,7 +1304,7 @@ MonoBehaviour:
     model3D: {fileID: 924625972505912574, guid: 43e50a98d77c0344b8e496e972c29ca4, type: 3}
     category: 4
   - name: Mahkota Emas
-    image: {fileID: 21300000, guid: c119cc693f22ff04abadd0a90e14cf8d, type: 3}
+    image: {fileID: 21300000, guid: fc44519cd73147148974de2af9d94dd9, type: 3}
     price: Rp 250.000
     description: Hadirkan kemewahan kerajaan dalam genggaman Anda dengan Mahkota
       Emas "Royal Heritage", sebuah mahakarya perhiasan yang dibuat oleh para master
@@ -1314,7 +1314,7 @@ MonoBehaviour:
     model3D: {fileID: 5240659566252233947, guid: 560cfc50c71ed924aa417daad871cdd3, type: 3}
     category: 4
   - name: Mahkota Ular
-    image: {fileID: 21300000, guid: 14a610c8ccf2c024786915e6a2ffe2f6, type: 3}
+    image: {fileID: 21300000, guid: 0160d60206573da4288d91687e1840e2, type: 3}
     price: Rp 550.000
     description: Mahkota Ular memikat dengan desain eksotis yang terinspirasi dari
       keluwesan ular, terbuat dari logam berkilau yang elegan. Ringan dan nyaman
@@ -1323,7 +1323,7 @@ MonoBehaviour:
     model3D: {fileID: 8532332666334243089, guid: 4ce3a4fa2bc2d174b9c9058923b3548e, type: 3}
     category: 4
   - name: Mahkota Diamond
-    image: {fileID: 21300000, guid: ac0dc949321a22e4e942a42295a3849c, type: 3}
+    image: {fileID: 21300000, guid: 4749fd904a84534478479235042dac68, type: 3}
     price: Rp 850.000
     description: Mahkota Diamond memancarkan kemewahan dengan desain elegan yang
       dihiasi kilauan berlian sintetis berkualitas tinggi. Terbuat dari logam ringan,
@@ -1332,7 +1332,7 @@ MonoBehaviour:
     model3D: {fileID: 3357534543768072923, guid: bc06b141498a7e5458cc1b19c8c8f86b, type: 3}
     category: 4
   - name: Mahkota Iron
-    image: {fileID: 21300000, guid: f3c874c0b2910ba49bc0d212b1369766, type: 3}
+    image: {fileID: 21300000, guid: 71d5277ceafe4264a999749e53dd2201, type: 3}
     price: Rp 590.000
     description: Mahkota Iron menampilkan desain kokoh dan maskulin, terbuat dari
       besi tempa dengan sentuhan akhir yang kasar namun elegan. Ringan namun tahan

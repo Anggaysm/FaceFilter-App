@@ -840,7 +840,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 70a80d0f324f2914b80a331070b4e9dc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 74f26b4e4db79bd4ca0276271c78fca4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1294,7 +1294,7 @@ MonoBehaviour:
   backButton: {fileID: 1424649863}
   productList:
   - name: Kacamata Culture
-    image: {fileID: 21300000, guid: ced7daf8a6b42c146a131b29e135087a, type: 3}
+    image: {fileID: 21300000, guid: 71c19f589ec165b419c925fca3f0a1cb, type: 3}
     price: 'Rp 99.000 '
     description: Terinspirasi oleh suasana Pecinan era 60-an, frame stainless steel
       hollow ini menampilkan ukiran naga kecil di pelipis, dengan lensa blue light
@@ -1303,7 +1303,7 @@ MonoBehaviour:
     model3D: {fileID: 8879795417842232517, guid: 72e42e967c7d38a489a880b98a71bfdd, type: 3}
     category: 1
   - name: Kacamata Hijau
-    image: {fileID: 21300000, guid: 785cc0cb05f30c749bdc9e9d52665cd2, type: 3}
+    image: {fileID: 21300000, guid: 89288323f02b04640a73b5b8f77c4f99, type: 3}
     price: 'Rp 89.000 '
     description: Kacamata Lensa Hijau menawarkan desain stylish dengan lensa berwarna
       hijau yang elegan, terbuat dari material berkualitas tinggi. Nyaman dipakai
@@ -1313,7 +1313,7 @@ MonoBehaviour:
     model3D: {fileID: 1793678788328547496, guid: 91cf73eff2a624946b9efd4b5aa9d17e, type: 3}
     category: 1
   - name: Bintang Merah
-    image: {fileID: 21300000, guid: d6f68e5cd3307cc4c8501299faaedfe7, type: 3}
+    image: {fileID: 21300000, guid: b3075773c962dc04cba7a479fb67fd5d, type: 3}
     price: 'Rp 109.000 '
     description: Kacamata Lensa Bintang memukau dengan desain lensa unik bermotif
       bintang yang mencuri perhatian. Dibuat dengan frame ringan dan nyaman, cocok
@@ -1322,7 +1322,7 @@ MonoBehaviour:
     model3D: {fileID: 5635448363646966629, guid: a38cf0739a9d02d489917f8be659dfac, type: 3}
     category: 1
   - name: Vintage
-    image: {fileID: 21300000, guid: a7c7bb2e2a1697448b22d2137f55c8e0, type: 3}
+    image: {fileID: 21300000, guid: 7690d9105355ce943bde30107ec3eb18, type: 3}
     price: 'Rp 299.000 '
     description: Kacamata Genggam hadir dengan desain inovatif tanpa tangkai, mudah
       digenggam untuk penggunaan praktis kapan saja. Terbuat dari material ringan
@@ -1331,7 +1331,7 @@ MonoBehaviour:
     model3D: {fileID: 4018276219626626290, guid: 4c82abe8f029791468a2e26d01fa1a10, type: 3}
     category: 1
   - name: Kacamata Ultah
-    image: {fileID: 21300000, guid: 070e5f672b4edc44e81011944e8be8ec, type: 3}
+    image: {fileID: 21300000, guid: 551401bee8e6f01488d85622366962da, type: 3}
     price: 'Rp 50.000 '
     description: Kacamata Ulang Tahun dirancang spesial dengan desain ceria dan warna-warni
       yang meriah, sempurna untuk merayakan momen istimewa. Lensa berkualitas tinggi

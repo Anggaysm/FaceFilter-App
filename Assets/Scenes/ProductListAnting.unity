@@ -589,7 +589,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 70a80d0f324f2914b80a331070b4e9dc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 74f26b4e4db79bd4ca0276271c78fca4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1294,7 +1294,7 @@ MonoBehaviour:
   backButton: {fileID: 1076582521}
   productList:
   - name: Anting Kristal
-    image: {fileID: 21300000, guid: 3974db5614666224fb748fa6ba589abc, type: 3}
+    image: {fileID: 21300000, guid: 87be8e4277d58d44e9c6670c3a81a395, type: 3}
     price: Rp 400.000
     description: Tingkatkan gaya harianmu dengan Anting Kristal "Celestial Drops",
       perpaduan sempurna antara elegan dan modern. Kristal Swarovski Zirconia grade
@@ -1305,7 +1305,7 @@ MonoBehaviour:
     model3D: {fileID: 5856360275125562988, guid: f949505586e5eac479dd42d45ff55063, type: 3}
     category: 0
   - name: Anting Jaring
-    image: {fileID: 21300000, guid: e4099f0a94751b44c9fbbca767bf11df, type: 3}
+    image: {fileID: 21300000, guid: 6266f11e7ab79fb4db4cefae3c4f4014, type: 3}
     price: Rp 185.000
     description: Hadirkan aura misterius dan avant-garde dengan Anting Jaring "Celestial
       Web", perpaduan sempurna antara elegan gothic dan tren streetwear. Desain jaring
@@ -1314,7 +1314,7 @@ MonoBehaviour:
     model3D: {fileID: 440063220310617803, guid: e4f9dbd168d9f724cbccb69d8a7aea1a, type: 3}
     category: 0
   - name: Anting Lolipop
-    image: {fileID: 21300000, guid: 117bcc063c2a2684094efa51988c5f57, type: 3}
+    image: {fileID: 21300000, guid: 7a82299eb210c7a46b01adf73292f94a, type: 3}
     price: Rp 95.000
     description: Tambahkan sentuhan manis dan menyenangkan ke gaya sehari-harimu
       dengan Anting Lolipop "Sweet Twist"! Desain unik berbentuk permen lolipop ini
@@ -1323,7 +1323,7 @@ MonoBehaviour:
     model3D: {fileID: 1725558256426842029, guid: f331665985fdaa74fa34a34987c2e5cc, type: 3}
     category: 0
   - name: Anting Slim
-    image: {fileID: 21300000, guid: f27d767c9b4745a4198d154a81824ae3, type: 3}
+    image: {fileID: 21300000, guid: 8f7da07f1c9ded14390cfde185eaeb34, type: 3}
     price: Rp 200.000
     description: Anting Slim hadir dengan desain ramping dari perak 925 yang elegan,
       menjadikannya pilihan sempurna untuk segala kesempatan. Ringan dan hipoalergenik,

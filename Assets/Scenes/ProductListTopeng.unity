@@ -350,7 +350,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 70a80d0f324f2914b80a331070b4e9dc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 74f26b4e4db79bd4ca0276271c78fca4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1294,7 +1294,7 @@ MonoBehaviour:
   backButton: {fileID: 202319858}
   productList:
   - name: Topeng Gigi
-    image: {fileID: 21300000, guid: 31c31c16e23591a469ed9d0857521a98, type: 3}
+    image: {fileID: 21300000, guid: df65945545845f2448486da90f33a0bc, type: 3}
     price: Rp 25.000
     description: 'Bikin semua orang tersenyum melihat penampilanmu dengan Topeng
       Gigi "Smil3y"! Topeng ini menampilkan desain gigi putih besar dengan ekspresi
@@ -1303,7 +1303,7 @@ MonoBehaviour:
     model3D: {fileID: 8938997846354408002, guid: 3570d60ca5ef9f94b813ab0c694ee92a, type: 3}
     category: 3
   - name: Setan Jepang
-    image: {fileID: 21300000, guid: 99ccf047b85ebe344be814701875f905, type: 3}
+    image: {fileID: 21300000, guid: 3cfc4a8b0bae80241a6d18b2501a02cf, type: 3}
     price: Rp 1.250.000
     description: 'Hadirkan aura misterius dunia supernatural Jepang dengan topeng
       setan Oni tradisional! Dibuat oleh pengrajin kayu di Kyoto menggunakan teknik
@@ -1313,7 +1313,7 @@ MonoBehaviour:
     model3D: {fileID: 7250795038285063037, guid: a872edca2c7f3424db05af481583e0aa, type: 3}
     category: 3
   - name: Tengkorak
-    image: {fileID: 21300000, guid: 436fe94f00ffa0a4bb6193855a844501, type: 3}
+    image: {fileID: 21300000, guid: a2cc95030c004a74e8cff001cc56a609, type: 3}
     price: Rp 375.000
     description: "Hadirkan nuansa misteri dan filosofi memento mori dengan Topeng
       Tengkorak \"Memento Mori\". Topeng ini menampilkan replika tengkorak manusia
@@ -1323,7 +1323,7 @@ MonoBehaviour:
     model3D: {fileID: 3595042497124995738, guid: 159b92c29622c754681473d1ea6df391, type: 3}
     category: 3
   - name: Badut
-    image: {fileID: 21300000, guid: db6fa94966d6ee54299d031e541da6ac, type: 3}
+    image: {fileID: 21300000, guid: e806e5c6bb5a1364b9a646df5a0932ec, type: 3}
     price: Rp 45.000
     description: Topeng badut (topeng badut atau topeng clown) adalah topeng yang
       menggambarkan wajah badut dengan ciri khas seperti hidung merah, senyum lebar,
